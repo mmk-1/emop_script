@@ -1,0 +1,518 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.davidmoten:rxjava-extras:jar:0.9-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 219, column 32
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------< com.github.davidmoten:rxjava-extras >-----------------
+[INFO] Building rxjava-extras 0.9-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> emop-maven-plugin:1.0-SNAPSHOT:mrps (default-cli) > [methods]test @ rxjava-extras >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (default) @ rxjava-extras ---
+[INFO] argLine set to -javaagent:/home/mopuser/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/workspaces/rv-project/emop_scripts/rxjava-extras/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ rxjava-extras ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 74 source files to /workspaces/rv-project/emop_scripts/rxjava-extras/target/classes
+[INFO] /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.java: /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.java uses or overrides a deprecated API.
+[INFO] /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ rxjava-extras ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> emop-maven-plugin:1.0-SNAPSHOT:monitor-methods (default-cli) > test-compile @ rxjava-extras >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (default) @ rxjava-extras ---
+[INFO] argLine set to -javaagent:/home/mopuser/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/workspaces/rv-project/emop_scripts/rxjava-extras/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ rxjava-extras ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ rxjava-extras ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< emop-maven-plugin:1.0-SNAPSHOT:monitor-methods (default-cli) < test-compile @ rxjava-extras <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop-maven-plugin:1.0-SNAPSHOT:monitor-methods (default-cli) @ rxjava-extras ---
+[INFO] [eMOP] Invoking the ImpactedMethods Mojo...
+INFO: ChangedMethods: 1
+INFO: NewMethods: 0
+INFO: ImpactedTestClasses: 39
+INFO: NewClasses: 0
+INFO: OldClasses: 577
+INFO: ChangedClasses: 1
+INFO: ImpactedMethods: 1388
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 582 ms
+[INFO] [eMOP] Invoking the AffectedSpecsMethods Mojo...
+[INFO] [eMOP Timer] Compile-time weaving takes 2915 ms
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.java at line 65
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source.java at line 359
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source.java at line 1
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source.java at line 1
+[INFO] [eMOP Timer] Compute affected specs takes 457 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 0 ms
+[INFO] [eMOP] Number of affected methods: 1
+[INFO] [eMOP] Number of changed classes: 1
+[INFO] [eMOP] Number of new classes: 0
+[INFO] [eMOP] Number of messages to process: 71
+[INFO] [eMOP] Invoking the Monitor Mojo...
+[INFO] affectedSpecs: [Collections_NewSetFromMapMonitorAspect]
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 90 ms
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ rxjava-extras ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.davidmoten.rx.internal.operators.TransformerLimitSubscribersTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.089 s - in com.github.davidmoten.rx.internal.operators.TransformerLimitSubscribersTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.FileBasedSPSCQueueTest
+5592841 per second
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.803 s - in com.github.davidmoten.rx.internal.operators.FileBasedSPSCQueueTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.TransformerOnTerminateResumeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in com.github.davidmoten.rx.internal.operators.TransformerOnTerminateResumeTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorWindowMinMaxTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.github.davidmoten.rx.internal.operators.OperatorWindowMinMaxTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorSampleFirstTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.083 s - in com.github.davidmoten.rx.internal.operators.OperatorSampleFirstTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringSplitMoreTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.954 s - in com.github.davidmoten.rx.internal.operators.StringSplitMoreTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeMapLastTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeMapLastTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OrderedMergeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.392 s - in com.github.davidmoten.rx.internal.operators.OrderedMergeTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeDoOnEmptyTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeDoOnEmptyTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringSplitTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.github.davidmoten.rx.internal.operators.StringSplitTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.ObservableServerSocketTest
+pool-2-thread-3: a
+loop 0
+pool-2-thread-9: hello there
+pool-2-thread-1: hello there
+pool-2-thread-5: hell
+pool-2-thread-6: 1234
+pool-2-thread-7: 
+pool-2-thread-1: hello there
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.305 s - in com.github.davidmoten.rx.internal.operators.ObservableServerSocketTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringsMoreTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.916 s - in com.github.davidmoten.rx.internal.operators.StringsMoreTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorFromTransformerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in com.github.davidmoten.rx.internal.operators.OperatorFromTransformerTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeCacheResetableTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeCacheResetableTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorBufferToFileHelperTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.864 s - in com.github.davidmoten.rx.internal.operators.OperatorBufferToFileHelperTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.internal.operators.StringsTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorUnsubscribeEagerlyTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.358 s - in com.github.davidmoten.rx.internal.operators.OperatorUnsubscribeEagerlyTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.PermutationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.internal.operators.PermutationsTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest
+2023-09-21 20:07:35.953 [main] INFO  com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest - count=1, usedMem=224MB, percentMax=6.3, max=3576MB
+2023-09-21 20:07:36.953 [main] INFO  com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest - count=505043, usedMem=298MB, percentMax=8.3, max=3576MB
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.154 s - in com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeMatchTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.462 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeMatchTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorBufferToFileTest
+checkRateForOneKMessagesNoReadRollover
+rate = 81.1MB/s (1K messages, rollover, write only) duration=0.37
+checkRateForOneKMessagesRollover
+rate = 43.3MB/s (1K messages, rollover) duration=0.07
+checkRateForSmallMessagesRollover
+rate = 13.5MB/s (4B messages, rollover) duration=0.89
+handlesEmpty
+handlesEmptyUsingJavaIOSerialization
+handlesManyLargeMessages
+handlesMultiSecondLoopOfMidStreamUnsubscribeRollover
+3687 cycles passed
+handlesThreeUsingJavaIOSerialization
+handlesUnsubscription
+handlesUnsubscriptionDuringDrainLoop
+rolloverWorks
+testForReadMe
+memoryUsed=91.909MB
+final value 8686803
+memoryUsed=198.948MB
+memory used higher than expected
+memoryUsed=23.941MB
+[WARNING] Tests run: 24, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 21.499 s - in com.github.davidmoten.rx.internal.operators.OperatorBufferToFileTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.RollingSPSCQueueTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.003 s - in com.github.davidmoten.rx.internal.operators.RollingSPSCQueueTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorBufferPredicateBoundaryTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.github.davidmoten.rx.internal.operators.OperatorBufferPredicateBoundaryTest
+[INFO] Running com.github.davidmoten.rx.util.MapWithIndexTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.github.davidmoten.rx.util.MapWithIndexTest
+[INFO] Running com.github.davidmoten.rx.StateMachineTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.github.davidmoten.rx.StateMachineTest
+[INFO] Running com.github.davidmoten.rx.SerializedTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 s - in com.github.davidmoten.rx.SerializedTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.davidmoten.rx.testing.TestingHelperTest
+[INFO] Running com.github.davidmoten.rx.testing.OperatorCacheHelperTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.927 s - in com.github.davidmoten.rx.testing.OperatorCacheHelperTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperMergeTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.525 s - in com.github.davidmoten.rx.testing.TestingHelperMergeTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperCountTest
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.811 s - in com.github.davidmoten.rx.testing.TestingHelperCountTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperFilterTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.265 s - in com.github.davidmoten.rx.testing.TestingHelperFilterTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperUnsubscribeFromSourceTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.367 s - in com.github.davidmoten.rx.testing.TestingHelperUnsubscribeFromSourceTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperMapLastTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.811 s - in com.github.davidmoten.rx.testing.TestingHelperMapLastTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperConcatTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.263 s - in com.github.davidmoten.rx.testing.TestingHelperConcatTest
+[INFO] Running com.github.davidmoten.rx.testing.MergeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.testing.MergeTest
+[INFO] Running com.github.davidmoten.rx.StringsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.github.davidmoten.rx.StringsTest
+[INFO] Running com.github.davidmoten.rx.IgnoreTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.github.davidmoten.rx.IgnoreTest
+[INFO] Running com.github.davidmoten.rx.subjects.PublishSubjectSingleSubscriberTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.github.davidmoten.rx.subjects.PublishSubjectSingleSubscriberTest
+[INFO] Running com.github.davidmoten.rx.MathsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.github.davidmoten.rx.MathsTest
+[INFO] Running com.github.davidmoten.rx.TransformersTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s - in com.github.davidmoten.rx.TransformersTest
+[INFO] Running com.github.davidmoten.rx.ObsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in com.github.davidmoten.rx.ObsTest
+[INFO] Running com.github.davidmoten.rx.FunctionsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.github.davidmoten.rx.FunctionsTest
+[INFO] Running com.github.davidmoten.rx.RetryWhenTest
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 120000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 10ms
+WARN: boo
+waiting for 20ms
+WARN: boo
+waiting for 40ms
+WARN: boo
+waiting for 80ms
+WARN: boo
+waiting for 160ms
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.337 s - in com.github.davidmoten.rx.RetryWhenTest
+[INFO] Running com.github.davidmoten.rx.ActionsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.github.davidmoten.rx.ActionsTest
+[INFO] Running com.github.davidmoten.rx.SchedulersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.github.davidmoten.rx.SchedulersTest
+[INFO] Running com.github.davidmoten.rx.BytesTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.github.davidmoten.rx.BytesTest
+[INFO] Running com.github.davidmoten.util.PreconditionsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.util.PreconditionsTest
+[INFO] Running com.github.davidmoten.util.OptionalTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.util.OptionalTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 700, Failures: 0, Errors: 0, Skipped: 6
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:report (report) @ rxjava-extras ---
+[INFO] Skipping JaCoCo execution due to missing execution data file:/workspaces/rv-project/emop_scripts/rxjava-extras/target/jacoco.exec
+[INFO] 
+[INFO] <<< emop-maven-plugin:1.0-SNAPSHOT:mrps (default-cli) < [methods]test @ rxjava-extras <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop-maven-plugin:1.0-SNAPSHOT:mrps (default-cli) @ rxjava-extras ---
+[INFO] [eMOP] Invoking the RPS Methods Mojo...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:45 min
+[INFO] Finished at: 2023-09-21T20:08:21Z
+[INFO] ------------------------------------------------------------------------
+=====
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.davidmoten:rxjava-extras:jar:0.9-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 219, column 32
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------< com.github.davidmoten:rxjava-extras >-----------------
+[INFO] Building rxjava-extras 0.9-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> emop-maven-plugin:1.0-SNAPSHOT:mrps (default-cli) > [methods]test @ rxjava-extras >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (default) @ rxjava-extras ---
+[INFO] argLine set to -javaagent:/home/mopuser/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/workspaces/rv-project/emop_scripts/rxjava-extras/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ rxjava-extras ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 74 source files to /workspaces/rv-project/emop_scripts/rxjava-extras/target/classes
+[INFO] /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.java: /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.java uses or overrides a deprecated API.
+[INFO] /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ rxjava-extras ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> emop-maven-plugin:1.0-SNAPSHOT:monitor-methods (default-cli) > test-compile @ rxjava-extras >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (default) @ rxjava-extras ---
+[INFO] argLine set to -javaagent:/home/mopuser/.m2/repository/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=/workspaces/rv-project/emop_scripts/rxjava-extras/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ rxjava-extras ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rxjava-extras ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ rxjava-extras ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< emop-maven-plugin:1.0-SNAPSHOT:monitor-methods (default-cli) < test-compile @ rxjava-extras <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop-maven-plugin:1.0-SNAPSHOT:monitor-methods (default-cli) @ rxjava-extras ---
+[INFO] [eMOP] Invoking the ImpactedMethods Mojo...
+INFO: ChangedMethods: 1
+INFO: NewMethods: 2
+INFO: ImpactedTestClasses: 39
+INFO: NewClasses: 0
+INFO: OldClasses: 577
+INFO: ChangedClasses: 1
+INFO: ImpactedMethods: 1390
+[INFO] [eMOP Timer] Execute ImpactedMethods Mojo takes 626 ms
+[INFO] [eMOP] Invoking the AffectedSpecsMethods Mojo...
+[INFO] [eMOP Timer] Compile-time weaving takes 2887 ms
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source.java at line 362
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source.java at line 1
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source.java at line 1
+[WARNING] Cannot find method for /workspaces/rv-project/emop_scripts/rxjava-extras/src/main/java/com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.java at line 64
+[INFO] [eMOP Timer] Compute affected specs takes 468 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 0 ms
+[INFO] [eMOP] Number of affected methods: 3
+[INFO] [eMOP] Number of changed classes: 1
+[INFO] [eMOP] Number of new classes: 0
+[INFO] [eMOP] Number of messages to process: 71
+[INFO] [eMOP] Invoking the Monitor Mojo...
+[INFO] affectedSpecs: []
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 72 ms
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ rxjava-extras ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.davidmoten.rx.internal.operators.TransformerLimitSubscribersTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.662 s - in com.github.davidmoten.rx.internal.operators.TransformerLimitSubscribersTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.FileBasedSPSCQueueTest
+5793743 per second
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.727 s - in com.github.davidmoten.rx.internal.operators.FileBasedSPSCQueueTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.TransformerOnTerminateResumeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.github.davidmoten.rx.internal.operators.TransformerOnTerminateResumeTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorWindowMinMaxTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.github.davidmoten.rx.internal.operators.OperatorWindowMinMaxTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorSampleFirstTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 s - in com.github.davidmoten.rx.internal.operators.OperatorSampleFirstTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringSplitMoreTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.779 s - in com.github.davidmoten.rx.internal.operators.StringSplitMoreTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeMapLastTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeMapLastTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OrderedMergeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.144 s - in com.github.davidmoten.rx.internal.operators.OrderedMergeTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeDoOnEmptyTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeDoOnEmptyTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringSplitTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.github.davidmoten.rx.internal.operators.StringSplitTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.ObservableServerSocketTest
+pool-2-thread-4: a
+loop 0
+pool-2-thread-1: hello there
+pool-2-thread-5: hello there
+pool-2-thread-4: hell
+pool-2-thread-10: 1234
+pool-2-thread-2: 
+pool-2-thread-8: hello there
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.234 s - in com.github.davidmoten.rx.internal.operators.ObservableServerSocketTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringsMoreTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 s - in com.github.davidmoten.rx.internal.operators.StringsMoreTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorFromTransformerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in com.github.davidmoten.rx.internal.operators.OperatorFromTransformerTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeCacheResetableTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeCacheResetableTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorBufferToFileHelperTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.855 s - in com.github.davidmoten.rx.internal.operators.OperatorBufferToFileHelperTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.StringsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.internal.operators.StringsTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorUnsubscribeEagerlyTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.36 s - in com.github.davidmoten.rx.internal.operators.OperatorUnsubscribeEagerlyTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.PermutationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.internal.operators.PermutationsTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest
+2023-09-21 20:09:19.354 [main] INFO  com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest - count=1, usedMem=37MB, percentMax=1.0, max=3576MB
+2023-09-21 20:09:20.354 [main] INFO  com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest - count=485463, usedMem=41MB, percentMax=1.1, max=3576MB
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.058 s - in com.github.davidmoten.rx.internal.operators.TransformerStateMachineTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OnSubscribeMatchTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.193 s - in com.github.davidmoten.rx.internal.operators.OnSubscribeMatchTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorBufferToFileTest
+checkRateForOneKMessagesNoReadRollover
+rate = 84.7MB/s (1K messages, rollover, write only) duration=0.35
+checkRateForOneKMessagesRollover
+rate = 31.0MB/s (1K messages, rollover) duration=0.10
+checkRateForSmallMessagesRollover
+rate = 13.1MB/s (4B messages, rollover) duration=0.92
+handlesEmpty
+handlesEmptyUsingJavaIOSerialization
+handlesManyLargeMessages
+handlesMultiSecondLoopOfMidStreamUnsubscribeRollover
+3650 cycles passed
+handlesThreeUsingJavaIOSerialization
+handlesUnsubscription
+handlesUnsubscriptionDuringDrainLoop
+rolloverWorks
+testForReadMe
+memoryUsed=24.965MB
+final value 8617095
+memoryUsed=68.998MB
+memory used higher than expected
+memoryUsed=3.031MB
+[WARNING] Tests run: 24, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 21.238 s - in com.github.davidmoten.rx.internal.operators.OperatorBufferToFileTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.RollingSPSCQueueTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in com.github.davidmoten.rx.internal.operators.RollingSPSCQueueTest
+[INFO] Running com.github.davidmoten.rx.internal.operators.OperatorBufferPredicateBoundaryTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.github.davidmoten.rx.internal.operators.OperatorBufferPredicateBoundaryTest
+[INFO] Running com.github.davidmoten.rx.util.MapWithIndexTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.github.davidmoten.rx.util.MapWithIndexTest
+[INFO] Running com.github.davidmoten.rx.StateMachineTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.davidmoten.rx.StateMachineTest
+[INFO] Running com.github.davidmoten.rx.SerializedTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in com.github.davidmoten.rx.SerializedTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.davidmoten.rx.testing.TestingHelperTest
+[INFO] Running com.github.davidmoten.rx.testing.OperatorCacheHelperTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.931 s - in com.github.davidmoten.rx.testing.OperatorCacheHelperTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperMergeTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.529 s - in com.github.davidmoten.rx.testing.TestingHelperMergeTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperCountTest
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.807 s - in com.github.davidmoten.rx.testing.TestingHelperCountTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperFilterTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.262 s - in com.github.davidmoten.rx.testing.TestingHelperFilterTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperUnsubscribeFromSourceTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.354 s - in com.github.davidmoten.rx.testing.TestingHelperUnsubscribeFromSourceTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperMapLastTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.811 s - in com.github.davidmoten.rx.testing.TestingHelperMapLastTest
+[INFO] Running com.github.davidmoten.rx.testing.TestingHelperConcatTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.264 s - in com.github.davidmoten.rx.testing.TestingHelperConcatTest
+[INFO] Running com.github.davidmoten.rx.testing.MergeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.testing.MergeTest
+[INFO] Running com.github.davidmoten.rx.StringsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.github.davidmoten.rx.StringsTest
+[INFO] Running com.github.davidmoten.rx.IgnoreTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.IgnoreTest
+[INFO] Running com.github.davidmoten.rx.subjects.PublishSubjectSingleSubscriberTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.github.davidmoten.rx.subjects.PublishSubjectSingleSubscriberTest
+[INFO] Running com.github.davidmoten.rx.MathsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.github.davidmoten.rx.MathsTest
+[INFO] Running com.github.davidmoten.rx.TransformersTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.github.davidmoten.rx.TransformersTest
+[INFO] Running com.github.davidmoten.rx.ObsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.github.davidmoten.rx.ObsTest
+[INFO] Running com.github.davidmoten.rx.FunctionsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.FunctionsTest
+[INFO] Running com.github.davidmoten.rx.RetryWhenTest
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 120000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 60000ms
+WARN: boo
+waiting for 10ms
+WARN: boo
+waiting for 20ms
+WARN: boo
+waiting for 40ms
+WARN: boo
+waiting for 80ms
+WARN: boo
+waiting for 160ms
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 s - in com.github.davidmoten.rx.RetryWhenTest
+[INFO] Running com.github.davidmoten.rx.ActionsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.davidmoten.rx.ActionsTest
+[INFO] Running com.github.davidmoten.rx.SchedulersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.rx.SchedulersTest
+[INFO] Running com.github.davidmoten.rx.BytesTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.github.davidmoten.rx.BytesTest
+[INFO] Running com.github.davidmoten.util.PreconditionsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.github.davidmoten.util.PreconditionsTest
+[INFO] Running com.github.davidmoten.util.OptionalTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.github.davidmoten.util.OptionalTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 700, Failures: 0, Errors: 0, Skipped: 6
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:report (report) @ rxjava-extras ---
+[INFO] Skipping JaCoCo execution due to missing execution data file:/workspaces/rv-project/emop_scripts/rxjava-extras/target/jacoco.exec
+[INFO] 
+[INFO] <<< emop-maven-plugin:1.0-SNAPSHOT:mrps (default-cli) < [methods]test @ rxjava-extras <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop-maven-plugin:1.0-SNAPSHOT:mrps (default-cli) @ rxjava-extras ---
+[INFO] [eMOP] Invoking the RPS Methods Mojo...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:41 min
+[INFO] Finished at: 2023-09-21T20:10:03Z
+[INFO] ------------------------------------------------------------------------
+=====
