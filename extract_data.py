@@ -9,7 +9,7 @@ file_paths = [f"results/{project}/{file}" for file in ["hrps.txt", "mrps.txt", "
 
 # Define the patterns to match
 info_pattern = "INFO: (.+: \d+)"
-time_pattern = "\[INFO\] Total time: (\d+:\d+) min"
+time_pattern = "\[INFO\] Total time:(.*?)min"
 
 # Process each file
 for file_path in file_paths:
@@ -25,3 +25,6 @@ for file_path in file_paths:
             time_match = re.search(time_pattern, commit)
             if time_match:
                 print(f"Total time: {time_match.group(1)}")
+            print("@@@")
+
+        print("***")
