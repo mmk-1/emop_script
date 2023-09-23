@@ -25,7 +25,8 @@ mkdir repos/
 
 # for commit in $commit1 $commit2 $commit3 $commit4 $commit5
 # Read the CSV file line by line
-while IFS=',' read -r repo commit1 commit2 commit3 commit4 commit5
+# while IFS=',' read -r repo commit1 commit2 commit3 commit4 commit5
+while IFS=',' read -r repo commit1 commit2 commit3
 # while IFS=',' read -r repo commit1 commit2
 do
     # Clone the project
@@ -37,8 +38,8 @@ do
     mkdir -p results/$project/
     cd repos/$project
     
-    # for granularity in "hrps" "mrps" "rps"
-    for granularity in "hrps"
+    for granularity in "hrps" "mrps" "rps"
+    # for granularity in "hrps"
     do
         rm -rf ../.starts/
         mkdir ../.starts/
@@ -50,7 +51,7 @@ do
             rm -rf .starts/
             cp -r ../.starts/ ./.starts/
             sed -i "/<\/plugins>/i\\$PLUGIN" pom.xml
-            mvn emop:$granularity | tee -a ../../results/$project/$granularity.txt
+            mvn emop:$granularity -Drat.skip | tee -a ../../results/$project/$granularity.txt
             echo "=====" >> ../../results/$project/$granularity.txt
             rm -fr ../.starts/
             cp -rf ./.starts/ ../.starts/
@@ -59,5 +60,8 @@ do
         
         # Go back to the parent directory for the next project
     done
-    cd ..
+    cd ../..
+    python3 extract_data.py $project
 done < $1
+
+

@@ -1,0 +1,1170 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-lang3:jar:3.8-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 721, column 9
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< org.apache.commons:commons-lang3 >------------------
+[INFO] Building Apache Commons Lang 3.8-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:rps (default-cli) > [rps]test @ commons-lang3 >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- build-helper:3.0.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- antrun:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/mopuser/earv-research/emop_script/repos/commons-lang/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ commons-lang3 ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd '/home/mopuser/earv-research/emop_script/repos/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/mopuser/earv-research/emop_script/repos/commons-lang
+[INFO] Storing buildNumber: b41e91818614c2f1ac8f5e745f8bed342e80e727 at timestamp: 1695480453487
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/home/mopuser/earv-research/emop_script/repos/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/mopuser/earv-research/emop_script/repos/commons-lang
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 152 source files to /home/mopuser/earv-research/emop_script/repos/commons-lang/target/classes
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java: Some input files use or override a deprecated API.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:3.5.0:manifest (bundle-manifest) @ commons-lang3 ---
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 173 source files to /home/mopuser/earv-research/emop_script/repos/commons-lang/target/test-classes
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java: /home/mopuser/earv-research/emop_script/repos/commons-lang/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java uses unchecked or unsafe operations.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/test/java/org/apache/commons/lang3/EnumUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] >>> emop:1.0-SNAPSHOT:monitor (default-cli) > test-compile @ commons-lang3 >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-maven-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- build-helper:3.0.0:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- antrun:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ commons-lang3 ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd '/home/mopuser/earv-research/emop_script/repos/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/mopuser/earv-research/emop_script/repos/commons-lang
+[INFO] Storing buildNumber: b41e91818614c2f1ac8f5e745f8bed342e80e727 at timestamp: 1695480458495
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/home/mopuser/earv-research/emop_script/repos/commons-lang' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/mopuser/earv-research/emop_script/repos/commons-lang
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ commons-lang3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 152 source files to /home/mopuser/earv-research/emop_script/repos/commons-lang/target/classes
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java: Some input files use or override a deprecated API.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/mopuser/earv-research/emop_script/repos/commons-lang/src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:3.5.0:manifest (bundle-manifest) @ commons-lang3 ---
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< emop:1.0-SNAPSHOT:monitor (default-cli) < test-compile @ commons-lang3 <<<
+[INFO] 
+[INFO] 
+[INFO] --- emop:1.0-SNAPSHOT:monitor (default-cli) @ commons-lang3 ---
+[INFO] [eMOP] Invoking the ImpactedClasses Mojo...
+INFO: STARTS:Nodes: 758
+INFO: STARTS:Edges: 2283
+[INFO] [eMOP Timer] Execute ImpactedClasses Mojo takes 591 ms
+[INFO] [eMOP] Total number of classes: 715
+[INFO] [eMOP] Invoking the AffectedSpecs Mojo...
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.Enum64
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AAAClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AAClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.Traffic
+[ERROR] No source file found for class org.apache.commons.lang3.ClassNotFoundSerialization
+[ERROR] No source file found for class org.apache.commons.lang3.TooMany
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AAClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AClass
+[ERROR] No source file found for class org.apache.commons.lang3.reflect.AAAClass
+[INFO] [eMOP Timer] Compile-time weaving takes 10631 ms
+[INFO] [eMOP Timer] Compute affected specs takes 5 ms
+[INFO] [eMOP Timer] Write affected specs to disk takes 10 ms
+[INFO] [eMOP] Number of impacted classes: 715
+[INFO] [eMOP] Number of messages to process: 3826
+[INFO] [eMOP] Invoking the Monitor Mojo...
+[INFO] [eMOP Timer] Generating aop-ajc.xml and replace it takes 66 ms
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ commons-lang3 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.lang3.reflect.TypeLiteralTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.119 s - in org.apache.commons.lang3.reflect.TypeLiteralTest
+[INFO] Running org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.034 s - in org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.FieldUtilsTest
+[INFO] Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s - in org.apache.commons.lang3.reflect.FieldUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.MethodUtilsTest
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.reflect.MethodUtils.getOverrideHierarchy(MethodUtils.java:806). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.ClassUtils$2$1.next(ClassUtils.java:1435). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.reflect.MethodUtils.getOverrideHierarchy(MethodUtils.java:806). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.932 s - in org.apache.commons.lang3.reflect.MethodUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.InheritanceUtilsTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.commons.lang3.reflect.InheritanceUtilsTest
+[INFO] Running org.apache.commons.lang3.reflect.ConstructorUtilsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in org.apache.commons.lang3.reflect.ConstructorUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsTrimStripTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.commons.lang3.StringUtilsTrimStripTest
+[INFO] Running org.apache.commons.lang3.NotImplementedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.NotImplementedExceptionTest
+[INFO] Running org.apache.commons.lang3.ArchUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.commons.lang3.ArchUtilsTest
+[INFO] Running org.apache.commons.lang3.SerializationUtilsTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in org.apache.commons.lang3.SerializationUtilsTest
+[INFO] Running org.apache.commons.lang3.event.EventListenerSupportTest
+Specification Collection_UnsafeIterator has been violated on line org.apache.commons.lang3.event.EventListenerSupport$ProxyInvocationHandler.invoke(EventListenerSupport.java:334). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collection_UnsafeIterator.html
+The collection was modified while an iterator is being used.
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 s - in org.apache.commons.lang3.event.EventListenerSupportTest
+[INFO] Running org.apache.commons.lang3.event.EventUtilsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s - in org.apache.commons.lang3.event.EventUtilsTest
+[INFO] Running org.apache.commons.lang3.ConversionTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.apache.commons.lang3.ConversionTest
+[INFO] Running org.apache.commons.lang3.StringUtilsStartsEndsWithTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.lang3.StringUtilsStartsEndsWithTest
+[INFO] Running org.apache.commons.lang3.CharSetTest
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in org.apache.commons.lang3.CharSetTest
+[INFO] Running org.apache.commons.lang3.EnumUtilsTest
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.apache.commons.lang3.EnumUtilsTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsInsertTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.ArrayUtilsInsertTest
+[INFO] Running org.apache.commons.lang3.exception.ExceptionUtilsTest
+Specification ByteArrayOutputStream_FlushBeforeRetrieve has been violated on line org.apache.commons.lang3.exception.ExceptionUtilsTest.testPrintRootCauseStackTrace_ThrowableStream(ExceptionUtilsTest.java:378). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ByteArrayOutputStream_FlushBeforeRetrieve.html
+flush() or close() should be invoked before toByteArray() or toString() to get the complete contents.org.apache.commons.lang3.exception.ExceptionUtilsTest.testPrintRootCauseStackTrace_ThrowableStream(ExceptionUtilsTest.java:378)
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in org.apache.commons.lang3.exception.ExceptionUtilsTest
+[INFO] Running org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 s - in org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest
+[INFO] Running org.apache.commons.lang3.exception.CloneFailedExceptionTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.exception.CloneFailedExceptionTest
+[INFO] Running org.apache.commons.lang3.exception.ContextedExceptionTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.exception.ContextedExceptionTest
+[INFO] Running org.apache.commons.lang3.exception.DefaultExceptionContextTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.exception.DefaultExceptionContextTest
+[INFO] Running org.apache.commons.lang3.StringUtilsContainsTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s - in org.apache.commons.lang3.StringUtilsContainsTest
+[INFO] Running org.apache.commons.lang3.JavaVersionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.JavaVersionTest
+[INFO] Running org.apache.commons.lang3.StringUtilsSubstringTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.StringUtilsSubstringTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsAddTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.ArrayUtilsAddTest
+[INFO] Running org.apache.commons.lang3.StringUtilsTest
+[INFO] Tests run: 144, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.269 s - in org.apache.commons.lang3.StringUtilsTest
+[INFO] Running org.apache.commons.lang3.CharRangeTest
+Specification Iterator_RemoveOnce has been violated on line org.apache.commons.lang3.CharRangeTest.testIteratorRemove(CharRangeTest.java:405). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_RemoveOnce.html
+Iterator.remove() can be called only once per call to next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.CharRangeTest.testIterator(CharRangeTest.java:341). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.CharRangeTest.testIterator(CharRangeTest.java:358). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.CharRangeTest.testIterator(CharRangeTest.java:370). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.CharRangeTest.testIterator(CharRangeTest.java:382). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in org.apache.commons.lang3.CharRangeTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsRemoveTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.ArrayUtilsRemoveTest
+[INFO] Running org.apache.commons.lang3.RandomUtilsTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.RandomUtilsTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest
+[INFO] Running org.apache.commons.lang3.StringUtilsIsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.lang3.StringUtilsIsTest
+[INFO] Running org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 s - in org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] Running org.apache.commons.lang3.LocaleUtilsTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.commons.lang3.LocaleUtilsTest
+[INFO] Running org.apache.commons.lang3.ClassUtilsTest
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.ClassUtilsTest.testHierarchyIncludingInterfaces(ClassUtilsTest.java:1236). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.ClassUtils$2$1.next(ClassUtils.java:1435). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.ClassUtilsTest.testHierarchyExcludingInterfaces(ClassUtilsTest.java:1226). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[INFO] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.265 s - in org.apache.commons.lang3.ClassUtilsTest
+[INFO] Running org.apache.commons.lang3.tuple.ImmutableTripleTest
+Specification ByteArrayOutputStream_FlushBeforeRetrieve has been violated on line org.apache.commons.lang3.tuple.ImmutableTripleTest.testSerialization(ImmutableTripleTest.java:141). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ByteArrayOutputStream_FlushBeforeRetrieve.html
+flush() or close() should be invoked before toByteArray() or toString() to get the complete contents.org.apache.commons.lang3.tuple.ImmutableTripleTest.testSerialization(ImmutableTripleTest.java:141)
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.tuple.ImmutableTripleTest
+[INFO] Running org.apache.commons.lang3.tuple.MutableTripleTest
+Specification ByteArrayOutputStream_FlushBeforeRetrieve has been violated on line org.apache.commons.lang3.tuple.MutableTripleTest.testSerialization(MutableTripleTest.java:114). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ByteArrayOutputStream_FlushBeforeRetrieve.html
+flush() or close() should be invoked before toByteArray() or toString() to get the complete contents.org.apache.commons.lang3.tuple.MutableTripleTest.testSerialization(MutableTripleTest.java:114)
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.tuple.MutableTripleTest
+[INFO] Running org.apache.commons.lang3.tuple.TripleTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.apache.commons.lang3.tuple.TripleTest
+[INFO] Running org.apache.commons.lang3.tuple.PairTest
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.tuple.PairTest.testMapEntry(PairTest.java:68). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.tuple.PairTest
+[INFO] Running org.apache.commons.lang3.tuple.MutablePairTest
+Specification ByteArrayOutputStream_FlushBeforeRetrieve has been violated on line org.apache.commons.lang3.tuple.MutablePairTest.testSerialization(MutablePairTest.java:103). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ByteArrayOutputStream_FlushBeforeRetrieve.html
+flush() or close() should be invoked before toByteArray() or toString() to get the complete contents.org.apache.commons.lang3.tuple.MutablePairTest.testSerialization(MutablePairTest.java:103)
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.tuple.MutablePairTest
+[INFO] Running org.apache.commons.lang3.tuple.ImmutablePairTest
+Specification ByteArrayOutputStream_FlushBeforeRetrieve has been violated on line org.apache.commons.lang3.tuple.ImmutablePairTest.testSerialization(ImmutablePairTest.java:135). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/ByteArrayOutputStream_FlushBeforeRetrieve.html
+flush() or close() should be invoked before toByteArray() or toString() to get the complete contents.org.apache.commons.lang3.tuple.ImmutablePairTest.testSerialization(ImmutablePairTest.java:135)
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.tuple.ImmutablePairTest
+[INFO] Running org.apache.commons.lang3.time.FastDatePrinterTimeZonesTest
+[INFO] Tests run: 631, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.689 s - in org.apache.commons.lang3.time.FastDatePrinterTimeZonesTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParser_TimeZoneStrategyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.363 s - in org.apache.commons.lang3.time.FastDateParser_TimeZoneStrategyTest
+[INFO] Running org.apache.commons.lang3.time.DateFormatUtilsTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s - in org.apache.commons.lang3.time.DateFormatUtilsTest
+[INFO] Running org.apache.commons.lang3.time.DateUtilsRoundingTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.apache.commons.lang3.time.DateUtilsRoundingTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParserSDFTest
+[INFO] Tests run: 276, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.apache.commons.lang3.time.FastDateParserSDFTest
+[INFO] Running org.apache.commons.lang3.time.FastDateFormatTest
+>>FastDateFormatTest: FastDatePrinter:5635  SimpleDateFormat:2198
+>>FastDateFormatTest: FastDateParser:34085  SimpleDateFormat:1758
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.257 s - in org.apache.commons.lang3.time.FastDateFormatTest
+[INFO] Running org.apache.commons.lang3.time.DateUtilsFragmentTest
+[INFO] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.time.DateUtilsFragmentTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParserTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.108 s - in org.apache.commons.lang3.time.FastDateParserTest
+[INFO] Running org.apache.commons.lang3.time.FastDateParser_MoreOrLessTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.time.FastDateParser_MoreOrLessTest
+[INFO] Running org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+[INFO] Running org.apache.commons.lang3.time.StopWatchTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.052 s - in org.apache.commons.lang3.time.StopWatchTest
+[INFO] Running org.apache.commons.lang3.time.GmtTimeZoneTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.time.GmtTimeZoneTest
+[INFO] Running org.apache.commons.lang3.time.FastDatePrinterTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.lang3.time.FastDatePrinterTest
+[INFO] Running org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.621 s - in org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] Running org.apache.commons.lang3.time.WeekYearTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.time.WeekYearTest
+[INFO] Running org.apache.commons.lang3.time.FastDateFormat_ParserTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.641 s - in org.apache.commons.lang3.time.FastDateFormat_ParserTest
+[INFO] Running org.apache.commons.lang3.time.DateUtilsTest
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.assertWeekIterator(DateUtilsTest.java:1722). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.time.DateUtilsTest.testWeekIterator(DateUtilsTest.java:1621). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[INFO] Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.apache.commons.lang3.time.DateUtilsTest
+[INFO] Running org.apache.commons.lang3.time.FastTimeZoneTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.time.FastTimeZoneTest
+[INFO] Running org.apache.commons.lang3.StringUtilsEmptyBlankTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.StringUtilsEmptyBlankTest
+[INFO] Running org.apache.commons.lang3.ArrayUtilsTest
+[INFO] Tests run: 307, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.329 s - in org.apache.commons.lang3.ArrayUtilsTest
+[INFO] Running org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.apache.commons.lang3.StringUtilsEqualsIndexOfTest
+[INFO] Running org.apache.commons.lang3.CharUtilsTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.CharUtilsTest
+[INFO] Running org.apache.commons.lang3.test.SystemDefaultsSwitchTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.test.SystemDefaultsSwitchTest
+[INFO] Running org.apache.commons.lang3.SystemUtilsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.SystemUtilsTest
+[INFO] Running org.apache.commons.lang3.ObjectUtilsTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.apache.commons.lang3.ObjectUtilsTest
+[INFO] Running org.apache.commons.lang3.CharSequenceUtilsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in org.apache.commons.lang3.CharSequenceUtilsTest
+[INFO] Running org.apache.commons.lang3.RangeTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.apache.commons.lang3.RangeTest
+[INFO] Running org.apache.commons.lang3.BooleanUtilsTest
+[INFO] Tests run: 72, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.lang3.BooleanUtilsTest
+[INFO] Running org.apache.commons.lang3.StringEscapeUtilsTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.771 s - in org.apache.commons.lang3.StringEscapeUtilsTest
+[INFO] Running org.apache.commons.lang3.text.CompositeFormatTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.text.CompositeFormatTest
+[INFO] Running org.apache.commons.lang3.text.StrTokenizerTest
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicDelim1(StrTokenizerTest.java:289). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicDelim2(StrTokenizerTest.java:299). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicEmpty1(StrTokenizerTest.java:308). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicEmpty2(StrTokenizerTest.java:321). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testConstructor_charArray_char(StrTokenizerTest.java:695). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testIteration(StrTokenizerTest.java:839). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizer.next(StrTokenizer.java:519). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testConstructor_String_char_char(StrTokenizerTest.java:664). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testReset(StrTokenizerTest.java:727). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testReset_charArray(StrTokenizerTest.java:759). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testToString(StrTokenizerTest.java:880). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testTokenizeSubclassOutputChange(StrTokenizerTest.java:870). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted1(StrTokenizerTest.java:332). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted2(StrTokenizerTest.java:344). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted3(StrTokenizerTest.java:356). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted4(StrTokenizerTest.java:368). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted5(StrTokenizerTest.java:381). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted6(StrTokenizerTest.java:392). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuoted7(StrTokenizerTest.java:402). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testReset_String(StrTokenizerTest.java:744). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testEmpty(StrTokenizerTest.java:545). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizer.next(StrTokenizer.java:519). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testEmpty(StrTokenizerTest.java:545). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizer.next(StrTokenizer.java:519). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testConstructor_String(StrTokenizerTest.java:631). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testConstructor_String_char(StrTokenizerTest.java:647). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testTokenizeSubclassInputChange(StrTokenizerTest.java:855). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testEmpty(StrTokenizerTest.java:545). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizer.next(StrTokenizer.java:519). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testEmpty(StrTokenizerTest.java:545). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizer.next(StrTokenizer.java:519). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testConstructor_charArray(StrTokenizerTest.java:679). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testConstructor_charArray_char_char(StrTokenizerTest.java:712). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicIgnoreTrimmed1(StrTokenizerTest.java:455). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicIgnoreTrimmed2(StrTokenizerTest.java:469). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicIgnoreTrimmed3(StrTokenizerTest.java:482). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicIgnoreTrimmed4(StrTokenizerTest.java:496). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicQuotedTrimmed1(StrTokenizerTest.java:415). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasic1(StrTokenizerTest.java:239). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasic2(StrTokenizerTest.java:249). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasic3(StrTokenizerTest.java:259). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasic4(StrTokenizerTest.java:269). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasic5(StrTokenizerTest.java:279). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicTrimmed1(StrTokenizerTest.java:428). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrTokenizerTest.testBasicTrimmed2(StrTokenizerTest.java:441). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+[ERROR] Tests run: 55, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.135 s <<< FAILURE! - in org.apache.commons.lang3.text.StrTokenizerTest
+[ERROR] testCloneNotSupportedException(org.apache.commons.lang3.text.StrTokenizerTest)  Time elapsed: 0.043 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.apache.commons.lang3.text.StrTokenizerTest.testCloneNotSupportedException(StrTokenizerTest.java:588)
+
+[INFO] Running org.apache.commons.lang3.text.StrMatcherTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.StrMatcherTest
+[INFO] Running org.apache.commons.lang3.text.StrBuilderAppendInsertTest
+[INFO] Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.apache.commons.lang3.text.StrBuilderAppendInsertTest
+[INFO] Running org.apache.commons.lang3.text.translate.OctalUnescaperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.translate.OctalUnescaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.LookupTranslatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.text.translate.LookupTranslatorTest
+[INFO] Running org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.UnicodeUnescaperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.translate.UnicodeUnescaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.EntityArraysTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.lang3.text.translate.EntityArraysTest
+[INFO] Running org.apache.commons.lang3.text.translate.UnicodeEscaperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.translate.UnicodeEscaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.NumericEntityEscaperTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.translate.NumericEntityEscaperTest
+[INFO] Running org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemoverTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemoverTest
+[INFO] Running org.apache.commons.lang3.text.FormattableUtilsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.lang3.text.FormattableUtilsTest
+[INFO] Running org.apache.commons.lang3.text.StrSubstitutorTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.163 s - in org.apache.commons.lang3.text.StrSubstitutorTest
+[INFO] Running org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 s - in org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[INFO] Running org.apache.commons.lang3.text.WordUtilsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.text.WordUtilsTest
+[INFO] Running org.apache.commons.lang3.text.StrBuilderTest
+Specification Iterator_HasNext has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testAsTokenizer(StrBuilderTest.java:1684). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Iterator_HasNext.html
+Iterator.hasNext() was not called before calling next().
+Specification Reader_ManipulateAfterClose has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testAsReader(StrBuilderTest.java:1737). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Reader_ManipulateAfterClose.html
+read(), ready(), mark(), reset() or skip() was invoked after close().
+Specification Writer_ManipulateAfterClose has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testAsWriter(StrBuilderTest.java:1802). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Writer_ManipulateAfterClose.html
+write() or flush() was invoked after close().
+Specification Writer_ManipulateAfterClose has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testAsWriter(StrBuilderTest.java:1806). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Writer_ManipulateAfterClose.html
+write() or flush() was invoked after close().
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testHashCode(StrBuilderTest.java:1871). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testHashCode(StrBuilderTest.java:1872). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testHashCode(StrBuilderTest.java:1877). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testHashCode(StrBuilderTest.java:1878). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.test_LANG_1131_EqualsWithNullStrBuilder(StrBuilderTest.java:1864). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1839). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1840). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1841). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1842). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilder.equals(StrBuilder.java:2823). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1845). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1846). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilder.equals(StrBuilder.java:2823). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1849). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1850). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilder.equals(StrBuilder.java:2823). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1853). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1854). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilder.equals(StrBuilder.java:2823). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1856). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+Specification CharSequence_UndefinedHashCode has been violated on line org.apache.commons.lang3.text.StrBuilderTest.testEquals(StrBuilderTest.java:1857). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/CharSequence_UndefinedHashCode.html
+equals and hashCode methods might not be supported in CharSequence
+[INFO] Tests run: 91, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.apache.commons.lang3.text.StrBuilderTest
+[INFO] Running org.apache.commons.lang3.text.StrLookupTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.text.StrLookupTest
+[INFO] Running org.apache.commons.lang3.RandomStringUtilsTest
+Specification Random_OverrideNext has been violated on line org.apache.commons.lang3.RandomStringUtilsTest$1.<clinit>(RandomStringUtilsTest.java:1). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Random_OverrideNext.html
+org.apache.commons.lang3.RandomStringUtilsTest$1 does not override int next(int bits).
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s - in org.apache.commons.lang3.RandomStringUtilsTest
+[INFO] Running org.apache.commons.lang3.CharSetUtilsTest
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+Specification Collections_SynchronizedCollection has been violated on line org.apache.commons.lang3.CharSet.contains(CharSet.java:240). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Collections_SynchronizedCollection.html
+A synchronized collection was accessed in a thread-unsafe manner.
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.apache.commons.lang3.CharSetUtilsTest
+[INFO] Running org.apache.commons.lang3.ClassPathUtilsTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.lang3.ClassPathUtilsTest
+[INFO] Running org.apache.commons.lang3.math.FractionTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.math.FractionTest.testCompareTo(FractionTest.java:1278). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 s - in org.apache.commons.lang3.math.FractionTest
+[INFO] Running org.apache.commons.lang3.math.IEEE754rUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.math.IEEE754rUtilsTest
+[INFO] Running org.apache.commons.lang3.math.NumberUtilsTest
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.apache.commons.lang3.math.NumberUtilsTest
+[INFO] Running org.apache.commons.lang3.ValidateTest
+[INFO] Tests run: 67, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.ValidateTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableBooleanTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableBooleanTest.testCompareToNull(MutableBooleanTest.java:48). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.commons.lang3.mutable.MutableBooleanTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableByteTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableByteTest.testCompareToNull(MutableByteTest.java:118). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableFloatTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableFloatTest.testCompareToNull(MutableFloatTest.java:130). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.mutable.MutableFloatTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableDoubleTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableDoubleTest.testCompareToNull(MutableDoubleTest.java:130). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.mutable.MutableDoubleTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableLongTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableLongTest.testCompareToNull(MutableLongTest.java:118). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.lang3.mutable.MutableLongTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableObjectTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.lang3.mutable.MutableObjectTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableShortTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableShortTest.testCompareTo(MutableShortTest.java:112). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.mutable.MutableShortTest
+[INFO] Running org.apache.commons.lang3.mutable.MutableIntTest
+Specification Comparable_CompareToNull has been violated on line org.apache.commons.lang3.mutable.MutableIntTest.testCompareToNull(MutableIntTest.java:125). Documentation for this property can be found at http://runtimeverification.com/monitor/annotated-java/__properties/html/mop/Comparable_CompareToNull.html
+null cannot be compared to any object
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] Running org.apache.commons.lang3.BitFieldTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.apache.commons.lang3.BitFieldTest
+[INFO] Running org.apache.commons.lang3.CharEncodingTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.commons.lang3.CharEncodingTest
+[INFO] Running org.apache.commons.lang3.builder.SimpleToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.builder.SimpleToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionDiffBuilderTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.606 s - in org.apache.commons.lang3.builder.ReflectionDiffBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.DefaultToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.lang3.builder.DefaultToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in org.apache.commons.lang3.builder.MultilineRecursiveToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderSummaryTest
+[INFO] Running org.apache.commons.lang3.builder.RecursiveToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.apache.commons.lang3.builder.RecursiveToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.007 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest
+[INFO] Running org.apache.commons.lang3.builder.HashCodeBuilderTest
+[INFO] Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.apache.commons.lang3.builder.HashCodeBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.CompareToBuilderTest
+[INFO] Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.apache.commons.lang3.builder.CompareToBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.JsonToStringStyleTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.lang3.builder.JsonToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ToStringStyleTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.builder.ToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest
+[INFO] Running org.apache.commons.lang3.builder.DiffBuilderTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 s - in org.apache.commons.lang3.builder.DiffBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.DiffResultTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.lang3.builder.DiffResultTest
+[INFO] Running org.apache.commons.lang3.builder.NoClassNameToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.builder.NoClassNameToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.DiffTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.builder.DiffTest
+[INFO] Running org.apache.commons.lang3.builder.StandardToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.builder.StandardToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.EqualsBuilderTest
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s - in org.apache.commons.lang3.builder.EqualsBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeNullValuesTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeNullValuesTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest
+[INFO] Running org.apache.commons.lang3.builder.ToStringBuilderTest
+[INFO] Tests run: 94, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in org.apache.commons.lang3.builder.ToStringBuilderTest
+[INFO] Running org.apache.commons.lang3.builder.MultiLineToStringStyleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.lang3.builder.MultiLineToStringStyleTest
+[INFO] Running org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeWithAnnotationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeWithAnnotationTest
+[INFO] Running org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest
+=====
