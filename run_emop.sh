@@ -21,6 +21,7 @@ PLUGIN='\<plugin\>\
 \<\/plugin\>'
 
 mkdir results/
+mkdir repos/
 
 # for commit in $commit1 $commit2 $commit3 $commit4 $commit5
 # Read the CSV file line by line
@@ -30,10 +31,11 @@ do
     # Clone the project
     author=$(echo $repo | cut -d '/' -f 1)
     project=$(echo $repo | cut -d '/' -f 2)
-    
+    cd repos/
     git clone https://github.com/$repo.git $project
+    cd ..
     mkdir -p results/$project/
-    cd $project
+    cd repos/$project
     
     # for granularity in "hrps" "mrps" "rps"
     for granularity in "hrps"
@@ -41,15 +43,15 @@ do
         rm -rf ../.starts/
         mkdir ../.starts/
         # Checkout and run checkstyle for each commit
-        for commit in $commit1 
+        for commit in $commit1 $commit2 $commit3
         do
             git checkout $commit -f
             mvn clean
             rm -rf .starts/
             cp -r ../.starts/ ./.starts/
             sed -i "/<\/plugins>/i\\$PLUGIN" pom.xml
-            mvn emop:$granularity | tee -a ../results/$project/$granularity.txt
-            echo "=====" >> ../results/$project/$granularity.txt
+            mvn emop:$granularity | tee -a ../../results/$project/$granularity.txt
+            echo "=====" >> ../../results/$project/$granularity.txt
             rm -fr ../.starts/
             cp -rf ./.starts/ ../.starts/
             rm -fr ./.starts/
