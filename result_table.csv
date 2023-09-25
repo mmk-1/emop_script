@@ -1,0 +1,27 @@
+commons-compress:1:results/commons-compress/hrps.txt: ,ImpactedMethods: 4820,ChangedMethods: 0,NewMethods: 4820,ImpactedTestClasses: 147,ChangedClasses: 0,NewClasses: 563,OldClasses: 0,Total time:   04:14 min
+commons-compress:2:results/commons-compress/hrps.txt: ,ImpactedMethods: 3366,ChangedMethods: 1,NewMethods: 4,ImpactedTestClasses: 97,ChangedClasses: 3,NewClasses: 0,OldClasses: 563,Total time:   02:12 min
+commons-compress:3:results/commons-compress/hrps.txt: ,ImpactedMethods: 2,ChangedMethods: 0,NewMethods: 2,ImpactedTestClasses: 1,ChangedClasses: 1,NewClasses: 0,OldClasses: 563,Total time:   02:06 min
+commons-compress:1:results/commons-compress/mrps.txt: ,ChangedMethods: 0,NewMethods: 4820,ImpactedTestClasses: 147,NewClasses: 563,OldClasses: 0,ChangedClasses: 0,ImpactedMethods: 4820,Total time:   04:16 min
+commons-compress:2:results/commons-compress/mrps.txt: ,ChangedMethods: 1,NewMethods: 4,ImpactedTestClasses: 97,NewClasses: 0,OldClasses: 563,ChangedClasses: 3,ImpactedMethods: 3366,Total time:   02:17 min
+commons-compress:3:results/commons-compress/mrps.txt: ,ChangedMethods: 0,NewMethods: 2,ImpactedTestClasses: 1,NewClasses: 0,OldClasses: 563,ChangedClasses: 1,ImpactedMethods: 2,Total time:   02:04 min
+commons-compress:1:results/commons-compress/rps.txt: ,STARTS:Nodes: 633,STARTS:Edges: 2675,Total time:   11:53 min
+commons-compress:2:results/commons-compress/rps.txt: ,STARTS:Nodes: 633,STARTS:Edges: 2675,Total time:   12:09 min
+commons-compress:3:results/commons-compress/rps.txt: ,STARTS:Nodes: 633,STARTS:Edges: 2676,Total time:   07:16 min
+commons-codec:1:results/commons-codec/hrps.txt: ,ImpactedMethods: 2108,ChangedMethods: 0,NewMethods: 2108,ImpactedTestClasses: 70,ChangedClasses: 0,NewClasses: 191,OldClasses: 0,Total time: 43.289 s
+commons-codec:2:results/commons-codec/hrps.txt: ,ImpactedMethods: 643,ChangedMethods: 0,NewMethods: 4,ImpactedTestClasses: 30,ChangedClasses: 1,NewClasses: 0,OldClasses: 191,Total time: 23.852 s
+commons-codec:3:results/commons-codec/hrps.txt: ,ImpactedMethods: 0,ChangedMethods: 0,NewMethods: 0,ImpactedTestClasses: 0,ChangedClasses: 0,NewClasses: 0,OldClasses: 191,Total time: 7.093 s
+commons-codec:1:results/commons-codec/mrps.txt: ,ChangedMethods: 0,NewMethods: 2108,ImpactedTestClasses: 70,NewClasses: 191,OldClasses: 0,ChangedClasses: 0,ImpactedMethods: 2108,Total time: 39.946 s
+commons-codec:2:results/commons-codec/mrps.txt: ,ChangedMethods: 0,NewMethods: 4,ImpactedTestClasses: 30,NewClasses: 0,OldClasses: 191,ChangedClasses: 1,ImpactedMethods: 643,Total time: 22.571 s
+commons-codec:3:results/commons-codec/mrps.txt: ,ChangedMethods: 2,NewMethods: 1,ImpactedTestClasses: 3,NewClasses: 0,OldClasses: 191,ChangedClasses: 3,ImpactedMethods: 3,Total time: 23.859 s
+commons-codec:1:results/commons-codec/rps.txt: ,STARTS:Nodes: 210,STARTS:Edges: 758,Total time: 01:54 min
+commons-codec:2:results/commons-codec/rps.txt: ,STARTS:Nodes: 210,STARTS:Edges: 758,Total time: 47.450 s
+commons-codec:3:results/commons-codec/rps.txt: ,STARTS:Nodes: 210,STARTS:Edges: 758,Total time: 48.726 s
+commons-imaging:1:results/commons-imaging/hrps.txt: ,ImpactedMethods: 3089,ChangedMethods: 0,NewMethods: 3089,ImpactedTestClasses: 148,ChangedClasses: 0,NewClasses: 596,OldClasses: 0,Total time: 01:31 min
+commons-imaging:2:results/commons-imaging/hrps.txt: ,ImpactedMethods: 3370,ChangedMethods: 4,NewMethods: 0,ImpactedTestClasses: 113,ChangedClasses: 3,NewClasses: 1,OldClasses: 596,Total time: 45.123 s
+commons-imaging:3:results/commons-imaging/hrps.txt: ,ImpactedMethods: 3370,ChangedMethods: 4,NewMethods: 0,ImpactedTestClasses: 113,ChangedClasses: 5,NewClasses: 1,OldClasses: 597,Total time: 50.891 s
+commons-imaging:1:results/commons-imaging/mrps.txt: ,ChangedMethods: 0,NewMethods: 3089,ImpactedTestClasses: 148,NewClasses: 596,OldClasses: 0,ChangedClasses: 0,ImpactedMethods: 3089,Total time: 01:31 min
+commons-imaging:2:results/commons-imaging/mrps.txt: ,ChangedMethods: 4,NewMethods: 5,ImpactedTestClasses: 113,NewClasses: 1,OldClasses: 596,ChangedClasses: 4,ImpactedMethods: 3373,Total time: 43.257 s
+commons-imaging:3:results/commons-imaging/mrps.txt: ,ChangedMethods: 4,NewMethods: 3,ImpactedTestClasses: 113,NewClasses: 1,OldClasses: 597,ChangedClasses: 5,ImpactedMethods: 3373,Total time: 50.312 s
+commons-imaging:1:results/commons-imaging/rps.txt: ,STARTS:Nodes: 621,STARTS:Edges: 3300,Total time: 02:15 min
+commons-imaging:2:results/commons-imaging/rps.txt: ,STARTS:Nodes: 622,STARTS:Edges: 3304,Total time: 02:18 min
+commons-imaging:3:results/commons-imaging/rps.txt: ,STARTS:Nodes: 623,STARTS:Edges: 3309,Total time: 02:07 min
